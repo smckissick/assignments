@@ -16,7 +16,7 @@ $favorite_day = $days_of_the_week[$day_num];
     <h1>LIS 467 PHP Page</h1>
 </header>
 <main>
-    <p>My favorite day is <?= $favorite_day; ?></p>.
+    <p>My favorite day is <?= $favorite_day; ?>.</p>
 </main>
 </body>
 </html>
