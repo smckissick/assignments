@@ -1,0 +1,61 @@
+* {
+  font-family: 'Average Sans', sans-serif;
+}
+
+body {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 0em 2em 0em;
+  background-color: white;
+}
+
+lang(ja) {
+  font-family: 'Osaka';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+
+h1 {
+  color: #CD8C52;
+}
+
+blockquote {
+  background-color: #FCF7D3;
+}
+
+a {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+figure {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.definitions {
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.definitions .term {
+  font-size: 1.5em;
+}
+
+.term {
+  font-variant: small-caps;
+}
+
+.person {
+  background-color: #DEE8BE;
+}
+
+#signed-by {
+  font-variant: small-caps;
+}
