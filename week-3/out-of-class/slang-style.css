@@ -9,7 +9,7 @@ body {
   background-color: white;
 }
 
-lang(ja) {
+:lang(ja) {
   font-family: 'Osaka';
 }
 
@@ -38,6 +38,7 @@ figure {
   margin: auto;
   width: 50%;
   text-align: center;
+  background-color: #FCF7D3;
 }
 
 .definitions {
@@ -48,14 +49,10 @@ figure {
   font-size: 1.5em;
 }
 
-.term {
+.term, #signed-by {
   font-variant: small-caps;
 }
 
 .person {
   background-color: #DEE8BE;
-}
-
-#signed-by {
-  font-variant: small-caps;
 }
