@@ -1,0 +1,3 @@
+This is a website for the Gravity Falls Public Library (for the imaginary town of Gravity Falls, based on the show of the same name). Gravity Falls is a small town in Oregon and therefore would not serve a huge population, but the staff is very dedicated to providing community services.
+
+I've included a home page, a teen page, a contact-us page, an hours-&-location page, and a getting-a-card page. The wireframes are all pretty simple and similar throughout, with a sidebar section with various useful links. I decided to do that in order to avoid the off-putting but common library website convention of having overwhelming navigation dropdown menus. I think they're confusing and very user-unfriendly.

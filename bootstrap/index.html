@@ -1,20 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Learning Bootstrap</title>
+  <meta charset="UTF-8">
+  <title>Learning Bootstrap</title>
 
-    <!-- This is the Bootstrap stylesheet. -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- This is the Bootstrap stylesheet. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Our stylesheet goes after we load Bootstrap -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Our stylesheet goes after we load Bootstrap -->
+  <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-<!-- Bootstrap's required JavaScript -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <header class="bg-dark">
+    <div class="container">
+      <nav class="navbar navbar-dark navbar-expand-lg">
+        <a href="#" class="navbar-brand">My Library</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Search</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Visit</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#" class="nav-link">News</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </header>
+
+  <section class="container" id="stuff-in-the-middle">
+    <div class="row">
+      <div class="col-md-7">
+        <h2>
+          This week at the library
+        </h2>
+        <h3>
+          May 3
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices, leo eu malesuada pharetra, nunc libero bibendum augue, id volutpat velit arcu in nisl.
+        </p>
+        <h3>
+          May 6
+        </h3>
+        <p>
+          Donec viverra egestas elit, in facilisis tellus luctus nec. Vestibulum quis posuere lorem. Fusce efficitur egestas orci, non pretium urna vulputate at. Duis in ligula non turpis auctor luctus at quis enim. Ut nec ante at ligula laoreet varius a faucibus
+          nibh. Phasellus mi orci, viverra quis tellus vel, blandit porta ex.
+        </p>
+        <h3>
+          May 9
+        </h3>
+        <p>
+          Curabitur sapien tellus, vestibulum vel leo vel, cursus tempus risus. Cras facilisis arcu quam. Nullam vitae consectetur nibh. Sed maximus imperdiet tellus at auctor. Fusce rhoncus mauris non mi feugiat posuere. Morbi convallis laoreet elit vitae auctor.
+          Nullam fringilla metus a massa lobortis, a scelerisque turpis tristique. Praesent lacinia hendrerit sem, a aliquam odio malesuada ac. Suspendisse pharetra eu orci a consectetur.
+        </p>
+      </div>
+
+      <div class="col-md-5">
+        <img src="this-week.jpg" class="img-fluid" alt="scene-in-library">
+      </div>
+    </div>
+    <div class="pt-5 row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="cat-in-bookcase.jpg" alt="cat-in-bookcase">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="library-renovation-plans.jpg" class="img-fluid" alt="library-renovation-plans">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="new-shelves.jpg" alt="new-shelves">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>
+            Main Hours
+          </h5>
+          <ul class="list-unstyled">
+            <li>Monday: 9a-5p</li>
+            <li>Tuesday: 9a-5p</li>
+            <li>Wednesday: 9a-5p</li>
+            <li>Thursday: 9a-5p</li>
+            <li>Friday: 9a-5p</li>
+            <li>Saturday: 9a-5p</li>
+            <li>Sunday: 9a-5p</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            Main Hours
+          </h5>
+          <ul class="list-unstyled">
+            <li>Monday: 9a-5p</li>
+            <li>Tuesday: 9a-5p</li>
+            <li>Wednesday: 9a-5p</li>
+            <li>Thursday: 9a-5p</li>
+            <li>Friday: 9a-5p</li>
+            <li>Saturday: 9a-5p</li>
+            <li>Sunday: 9a-5p</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h5>
+            About
+          </h5>
+          <ul class="list-unstyled">
+            <li>Accessibility</li>
+            <li>Privacy</li>
+            <li>Copyright</li>
+            <li>Something Else</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h5>
+            Contact Us
+          </h5>
+          <ul class="list-unstyled">
+            <li>email@library.org</li>
+            <li>Twitter: @mylibrary</li>
+            <li>Facebook: /mylibrary</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h5>
+            Find Us
+          </h5>
+          <p>
+            100 Library Street<br> Some Town, MA
+          </p>
+          <img src="library-map.png" class="img-fluid" alt="library-map">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap's required JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
